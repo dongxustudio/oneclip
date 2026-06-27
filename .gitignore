@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime data (user-specific)
+data.json
+data.json.bak
+
+# Project-specific AI instructions (local only)
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+
+# Version backups (large, not part of the repo)
+backup/
+
+# OS
+.DS_Store
+Thumbs.db

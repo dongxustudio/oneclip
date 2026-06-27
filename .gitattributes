@@ -1,0 +1,6 @@
+# 所有文本文件统一使用 LF（跨平台标准）
+* text=auto eol=lf
+
+# 二进制文件不做换行符转换
+*.ico binary
+*.png binary

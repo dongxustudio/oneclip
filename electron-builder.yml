@@ -1,0 +1,45 @@
+appId: com.oneclip.app
+productName: OneClip
+copyright: Copyright © 2026
+
+directories:
+  output: dist
+  buildResources: assets
+
+extraResources:
+  - from: assets
+    to: assets
+    filter:
+      - "*.png"
+      - "*.ico"
+      - "*.svg"
+
+win:
+  icon: assets/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+  artifactName: ${productName}-Setup-${version}.${ext}
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: OneClip
+
+mac:
+  icon: assets/icon.png
+  category: public.app-category.utilities
+  target:
+    - target: dmg
+      arch: [x64, arm64]
+
+linux:
+  icon: assets/icon.png
+  category: Utility
+  target:
+    - target: AppImage
+      arch: [x64]
+    - target: deb
+      arch: [x64]

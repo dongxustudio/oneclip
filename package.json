@@ -1,0 +1,19 @@
+{
+  "name": "oneclip",
+  "version": "1.0.0",
+  "description": "一键粘贴工具 — 常驻系统托盘的文本片段管理器",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^34.0.0",
+    "electron-builder": "^25.0.0"
+  }
+}
