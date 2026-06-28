@@ -1,6 +1,6 @@
 {
   "name": "oneclip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一键粘贴工具 — 常驻系统托盘的文本片段管理器",
   "main": "src/main/index.js",
   "scripts": {
