@@ -61,7 +61,7 @@ input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--accent);
 }
 #titlebar-title{
   display:flex;align-items:center;gap:7px;
-  font-size:var(--text-label);font-weight:600;letter-spacing:.02em;color:var(--text-secondary);
+  font-size:var(--text-label);font-weight:600;letter-spacing:.02em;color:var(--accent);
 }
 .app-mark{width:16px;height:18px;flex-shrink:0}
 #titlebar-controls{display:flex;align-items:center;gap:2px;-webkit-app-region:no-drag}

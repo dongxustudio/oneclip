@@ -21,3 +21,8 @@ backup/
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs / output
+*.log
+stdout.txt
+stderr.txt

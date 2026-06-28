@@ -19,7 +19,7 @@ win:
   target:
     - target: nsis
       arch: [x64]
-  artifactName: ${productName}-Setup-${version}.${ext}
+  artifactName: ${productName}-Setup-${version}-win-x64.${ext}
 
 nsis:
   oneClick: false
